@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(0, 182, 94);
+    color: white;
+}
+
+.card {
+    border: 1px solid rgb(195, 255, 0);
+    margin-top: 25px;
+}
+
+.card-head {
+    text-align: center;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    padding: 10px 0;
+}
+
+.card p {
+    padding: 10px 20px;
+}
+
+#random-score {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+#point {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#wins {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#losses {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btn button {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+}

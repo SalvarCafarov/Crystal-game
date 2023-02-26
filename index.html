@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyrstal Collector Game</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="head">
+        <h1>Cyrstall Collector</h1>
+      </div>
+      <div class="card">
+        <div class="card-head">Instructions</div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+          iusto commodi, ad, quod atque officia eos unde molestias quia dolor
+          aperiam fuga nam explicabo error, neque repellat dolore harum nisi
+          quasi inventore sed adipisci. Cum non nemo optio reprehenderit velit
+          autem. Nemo, amet ratione dicta voluptatum sapiente repellendus atque
+          porro quibusdam repellat, voluptas quo officiis illum quaerat cum
+          aperiam illo!
+        </p>
+      </div>
+      <div class="card">
+        <div class="card-head">Target Score</div>
+        <span id="random-score"></span>
+      </div>
+      <div class="card">
+        <div class="card-head">Your Score</div>
+        <p id="point"></p>
+      </div>
+      <div class="card">
+        <div class="card-head">Cyrstal Selection</div>
+        <div class="btn">
+          <button class="btn-diamond" data-deyer="1">
+            <img src="./img/diamond.png"/>
+          </button>
+          <button class="btn-diamond" data-deyer="3">
+            <img src="./img/gamet.png" />
+          </button>
+          <button class="btn-diamond" data-deyer="7">
+            <img src="./img/gem.png" />
+          </button>
+          <button class="btn-diamond" data-deyer="10">
+            <img src="./img/sap.png" />
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head">Win Count</div>
+        <p id="wins"></p>
+      </div>
+      <div class="card">
+        <div class="card-head">Loss Count</div>
+        <p id="losses"></p>
+      </div>
+    </div>
+  </body>
+</html>
